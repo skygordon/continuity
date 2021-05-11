@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Illusion Lab 1</title>
+		<title>Visual Illusion Lab</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -16,14 +16,31 @@
 		<!-- Header -->
 			<section id="header">
 				<header class="major">
-					<h1>9.35 Illusion Lab 1</h1>
-					<p>Exploring continuity.</p>
+					<h1>9.35 Visual Illusion Lab</h1>
+					<p>Exploring depth and size perception.</p>
 					<p>By Nicole Dundas and Skylar Gordon</p>
 				</header>
 				<div class="container">
 					<ul class="actions special">
-						<li><a href="#one" class="button primary scrolly">Begin</a></li>
+						<li><a href="#backinfo" class="button primary scrolly">Begin</a></li>
 					</ul>
+				</div>
+			</section>
+
+			<!-- background -->
+			<section id="backinfo" class="main special">
+				<div class="container">
+					<span class="image fit primary"><img src="images/bg.jpg" alt="" /></span>
+					<div class="content">
+						<header class="major">
+							<h2>Background Information.</h2>
+						</header>
+						<p>Emmert's law states that objects that generate retinal images of the same size will be perceived to be of different sizes if they appear to be located at different distances. Specifically, the perceived size of an object increases as its perceived distance from the observer increases.
+						</p>
+						<p>Another visual illusion is that when an object casts its shadow on a background surface, the shadow can be informative about the shape of the object, the shape of the background surface and the spatial arrangement of the object relative to the background.
+						</p>
+					</div>
+					<a href="#one" class="goto-next scrolly">Next</a>
 				</div>
 			</section>
 
@@ -35,7 +52,7 @@
 						<header class="major">
 							<h2>The Question.</h2>
 						</header>
-						<p>Does grouping in a complex tone increase the continuity effect of a masking noise?</p>
+						<p>By combining shadow and linear perspective cues will the ball appear to grow or will the size remain unchanged?</p>
 					</div>
 					<a href="#two" class="goto-next scrolly">Next</a>
 				</div>
@@ -49,11 +66,10 @@
 						<header class="major">
 							<h2>Explaination of Design.</h2>
 						</header>
-						<p>A complex tone made of one low tone of 100Hz and one high tone of 1000Hz is masked by a low pass noise of 500Hz. The noise that fills the gap in the low tone component begins at .001 amplitude. After each group of cycles, the noise is increased in intensity. Its RMS are .001, .025, .05, .1, .2, .5 and 1. The complex tone plays for 900 ms and the noise plus the high tone component of the complex tone plays for 100 ms in between.
+						
+						<p>The goal of our illusion is to combine two illusions; motion from shadow and Emmert’s law. By combining depth from shadow and linear perspective, our illusion will ask if these cues cancel each other out or will be additive in their effects. We hope that by using depth cues the floating ball will look the same size but the rolling ball due to Emmert’s law will look larger.
 						</p>
-						<p>In comparing the thresholds of when you hear continuity of the low pure tone control versus the complex tone, we found that the complex tone is filled in over the masking noise earlier than the pure tone alone.
-						</p>
-						<p>This observation demonstrates that the grouping with the high frequency part of the tone could lead the brain to infer that the low tone also continued playing through the noise.
+						<p>We created two gifs where the ball always rolls to the opposite corner but in one the shadow is attached to the ball while the other the shadow follows the ball horizontally giving it a floating effect. We have three screen shots at the three critical points to the illusion. If the floating and stationary screenshots look the same size and are perceived as smaller than the rolling away ball then we realize that the depth from shadows and linear perspective are working together with Emmert’s law to make us perceive this size change that is not actually there. 
 						</p>
 					</div>
 					<a href="#three" class="goto-next scrolly">Next</a>
@@ -68,24 +84,40 @@
 						<header class="major">
 							<h2>Illusion.</h2>
 						</header>
-						<p>Warning: May get loud- Do NOT listen with headphones!.</p>
-						<img src="images/ComplexToneSpectrogram.png" width=500/><br>
-						<audio controls>
-							<source src="audio/complex_tone_illusion.wav" type="audio/wav">
-						  Your browser does not support the audio element.
-						  </audio><br>
-						
-						<img src="images/ControlIllusionSpectrogram.png" width=500/><br>
-						<audio controls>
-							<source src="audio/control_illusion.wav" type="audio/wav">
-						  Your browser does not support the audio element.
-						  </audio><br>
+						<p> Illusion of combining shadow and linear cues to create distance:</p>
+						<img src="images/ballwshadow.gif" width=500/><br>
+						<p>
+
+						</p>
+						<p> Illusion of combining shadow and linear cues to create height with no distance:</p>
+						<img src="images/ballseparate.gif" width=500/><br>
   
-				  		<p>Citation: Warren, R. M., Obusek, C. J., & Ackroff, J. M. (1972). Auditory Induction: Perceptual Synthesis of Absent Sounds. Science, 176(4039), 1149–1151. https://doi.org/10.1126/science.176.4039.1149.</p>
 					</div>
-					<a href="#footer" class="goto-next scrolly">Next</a>
+					<a href="#four" class="goto-next scrolly">Next</a>
 				</div>
 			</section>
+
+<!-- Four -->
+<section id="four" class="main special">
+	<div class="container">
+		<span class="image fit primary"><img src="images/bg.jpg" alt="" /></span>
+		<div class="content">
+			<header class="major">
+				<h2>Citations.</h2>
+			</header>
+			<p> 
+				Emmert’s Law. (n.d.). Retrieved May 11, 2021, from http://oceanswebsite.com/Emmertslaw.html.
+			</p>
+			<p> 
+				Mamassian, P., Knill, D. C., & Kersten, D. (1998). The perception of cast shadows. Trends in Cognitive Sciences, 2(8), 288–295. https://doi.org/10.1016/S1364-6613(98)01204-2.
+			</p>
+			<p> 
+				Shadows. (n.d.). Retrieved May 11, 2021, from http://vision.psych.umn.edu/users/kersten/kersten-lab/shadows.html.
+			</p>
+		</div>
+		<a href="#footer" class="goto-next scrolly">Next</a>
+	</div>
+</section>
 
 		<!-- Footer -->
 			<section id="footer">
